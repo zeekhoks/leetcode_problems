@@ -1,7 +1,5 @@
 package data_structures.LeetcodeDaily;
 
-import java.util.*;
-
 public class GetLucky {
     
     public static void main(String[] args) {

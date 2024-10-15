@@ -1,6 +1,5 @@
 package data_structures.LeetcodeDaily;
 
-import data_structures.LinkedList.ReorderList;
 import java.util.*;
 
 public class DeleteNodeFromLL {
@@ -60,7 +59,7 @@ public class DeleteNodeFromLL {
 
     public static void main(String[] args) {
 
-        int[] nums = { 1 };
+        // int[] nums = { 1 };
 
         DeleteNodeFromLL list1 = new DeleteNodeFromLL();
 
@@ -74,10 +73,9 @@ public class DeleteNodeFromLL {
         System.out.println("Original linked list 1: ");
         list1.display();
 
-        ListNode result = list1.modifiedList(nums, list1.head);
+        // ListNode result = list1.modifiedList(nums, list1.head);
 
         System.out.println("List after selected nodes have been removed : ");
-        // result.display();
 
     }
 

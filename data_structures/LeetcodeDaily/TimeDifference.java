@@ -12,7 +12,7 @@ public class TimeDifference {
         // timePoints.add("00:00");
 
         int[] intTimepoints = new int[timePoints.size()];
-        int minTimeDifference = Integer.MAX_VALUE;
+        // int minTimeDifference = Integer.MAX_VALUE;
 
         for (int i = 0; i < timePoints.size(); i++) {
             int newTimePoint = removeColon(timePoints.get(i));
